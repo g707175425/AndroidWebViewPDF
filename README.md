@@ -22,7 +22,7 @@ xml中引入控件
 由于用到了js和java桥
 需要proguard-project.txt 或者 proguard-rules.pro中加入如下配置:
 ```
-  -keep class cn.schope.lightning.activity.PdfViewerActivity.WebViewBridge.**{*;}
+-keep class cn.schope.lightning.activity.PdfViewerActivity.WebViewBridge.**{*;}
 ```
   
   
